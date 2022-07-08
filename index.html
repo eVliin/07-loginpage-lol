@@ -11,28 +11,36 @@
 
 <body>
     <main>
-        <section>
-            <img src="assets\riot.png" alt="logo riot games">
+        <section class="login">
+            <img class="riot" src="assets\riot.png" alt="logo riot games">
             <form>
                 <h3>Fazer Login</h3>
-                <input id="username" type="text" name="usuario" placeholder="Nome de Usuário">
-                <input id="password" type="password" name="senha" placeholder="Senha">
-                <div>
-                    <button><img src="assets\face.png"></button>
-                    <button><img src="assets\google.png"></button>
-                    <button><img src="assets\apple.png"></button>
+                <div class="inpBox">
+                    <span>Nome de Usuário</span>
+                    <input id="username" type="text" name="usuario">
                 </div>
-                <input type="checkbox"><span>Manter login</span>
+                <div class="inpBox">
+                    <span>Senha</span>
+                    <input id="password" type="password" name="senha">
+                </div>
+                <div class="media">
+                    <button class="face"><img src="assets\face.png"></button>
+                    <button class="google"><img src="assets\google.png"></button>
+                    <button class="apple"><img src="assets\apple.png"></button>
+                </div>
+                <div class="mtLog">
+                    <input type="checkbox"><span>Manter login</span>
+                </div>
             </form>
-            <div>
-                <button><img src="assets\arrow.png"></button>
-                <span>Não consegue iniciar a sessão? <a href="">Criar conta</a></span>
+            <div class="btDiv">
+                <button class="button4 disable"><img src="assets\arrow.png"></button>
+                <span>Não consegue iniciar a sessão?</span>
+                <a href="">Criar conta</a>
             </div>
         </section>
-        <img src="assets\lol.png" alt="herois do league of legends lutando contra monstro aquatico gigante">
+        <img class="banner" src="assets\lol.png" alt="herois do league of legends lutando contra monstro aquatico gigante">
     </main>
     <footer>
-
     </footer>
     <script src="script.js"></script>
 </body>
